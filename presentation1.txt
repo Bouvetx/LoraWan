@@ -1,0 +1,82 @@
+
+
+Lora for remote capter
+lora is good for localization
+
+lora :
+	physical layer
+lorawan :
+	session layer
+	network layer
+	data layer
+
+Chirp Spread Spectrum->long range , robust to interference
+
+Lorawan List of device :
+	Device (meteo station)
+	gateway (antena)
+	network server
+	Application server
+	join server
+
+//---------------------------------------------------------------------
+
+3 classes Choose by the device or b the network
+	A initiate by the device
+	B temporal (beaconing)
+	C continious
+
+when message arrives create
+	times to arrival
+	signal strength
+	SNR
+
+//---------------------------------------------------------------------
+
+frequency below 1GHz Unlicensed Spectrum
+
+863-870MHz (EU868)
+	8 channels up to 5.5kbps
+	1 channels up to 11kbps(lora modulation)
+	1 channel up to 50kbps(fsk modulation)
+	3 fixed channels
+902-928MHz (US915)
+	64 channels
+	dedicated up and down link chanells
+
+unlicensed but regulated (duty cycle)
+
+less acurate than gps but more efficientd
+
+
+hight data rate -> Hight probabilit of packet loss
+		-> Small spreading factor
+
+Low data rate	-> Hight spreading factor
+		-> Longer Time on air
+		-> More power consumption
+		-> long range
+		-> Reduce gateway capacity
+
+adaptative data rate
+
+//---------------------------------------------------------------------
+
+Active roaming
+	active handover from the home network server to a visiting  network server
+
+Passive roaming
+	Network server simply forwards packet to the home network server
+
+
+
+
+
+
+data->bits->phsique phenomenom
+
+
+300bps et 11kbps (base on regultaion)
+gatway always listen
+
+
